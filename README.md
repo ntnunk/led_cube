@@ -1,5 +1,4 @@
 ## 8x8x8 LED Cube
----
 An 8x8x8 LED Cube projects. Schematics and printed circuit boards designed in Kicad.
 
 ### Concept
