@@ -1,5 +1,5 @@
 ## 8x8x8 LED Cube
-An 8x8x8 LED Cube projects. Schematics and printed circuit boards designed in Kicad.
+An 8x8x8 LED Cube project. This repository will eventually contain both code and circuit schematics. Schematics and printed circuit boards designed in Kicad.
 
 ### Concept
 The cube is composed of eight layers of eight LEDs per side, or sixty-four LEDs per layer. The cube operates via persistance of vision, much like a flourescent light, which means there is never actually more than one LED layer active at a time. Because the controller cycles through the layers so quickly it fools the human eye and appears as though the cube is lit continuously.
