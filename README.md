@@ -2,7 +2,7 @@
 An 8x8x8 LED Cube project. This repository will eventually contain both code and circuit schematics. Schematics and printed circuit boards designed in Kicad.
 
 ### Concept
-The cube is composed of eight layers of eight LEDs per side, or sixty-four LEDs per layer. The cube operates via persistance of vision, much like a flourescent light, which means there is never actually more than one LED layer active at a time. Because the controller cycles through the layers so quickly it fools the human eye and appears as though the cube is lit continuously.
+The cube is composed of eight layers of eight LEDs per side, or sixty-four LEDs per layer. The cube relies upon persistance of vision, much like a flourescent light, which means there is never actually more than one LED layer active at a time. Because the controller cycles through the layers so quickly it fools the human eye and appears as though the cube is lit continuously.
 
 The LED cube itself is constructed of layers and columns of LEDs. The anodes every LED in a given column are connected together while the cathodes of every LED in a given layer are connected together. Individual LEDs can be turned on by having power applied to the vertical column the LED is part of and then having the layer it's part of switched to ground.
 
