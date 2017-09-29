@@ -19,7 +19,7 @@ part of and then having the layer it's part of switched to ground.
 #### Controller and Decoder
 
 The controller for this project is essentially a simplified Arduino Duemilanove with an ATMEL
-ATMEGA328P processor. A 74HC238 3-to-8 decoder is used to select one of eight 2N2222 general purpose
+ATMEGA328P processor. A 74HC238 3-to-8 decoder is used to select one of eight general purpose
 NPN transistors. The eight transistors have the base connected to an output pin of the decoder, the
 emitter to ground, and the collector to the cathodes of the LEDs in it's associated layer. Since the
 cathodes of all LEDs on a given layer are connected together, turning on one of the layer enable
@@ -29,7 +29,7 @@ power applied to their anodes to light up.
 #### LED Driver
 
 The second major section is the LED driver. Since the controller doesn't have enough I/O lines to
-control the number of LEDs required, the system uses another 74HC238 5-to-8 decoder in conjunction
+control the number of LEDs required, the system uses another 74HC238 3-to-8 decoder in conjunction
 with a eight 74HC595N serial-in, parallel-out 8-bit shift registers to control the 64 transistors on
 a layer. The shift registers can be connected in serial but that would require 64 clock cycles per
 layer change. Instead, the registers are connected in parallel with each shift register IC
