@@ -1,4 +1,5 @@
 ## 8x8x8 LED Cube
+----
 
 My 8x8x8 LED Cube project. This repository will eventually contain both code and circuit schematics.
 Schematics and printed circuit boards designed in Kicad.
@@ -15,8 +16,7 @@ column are connected together while the cathodes of every LED in a given layer a
 together. Individual LEDs can be turned on by having power applied to the vertical column the LED is
 part of and then having the layer it's part of switched to ground.
 
-### Functionality
-----
+## Functionality
 
 #### Controller and Decoder
 
