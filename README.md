@@ -1,4 +1,4 @@
-## 8x8x8 LED Cube
+# 8x8x8 LED Cube
 ----
 
 My 8x8x8 LED Cube project. This repository will eventually contain both code and circuit schematics.
